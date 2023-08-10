@@ -1,4 +1,4 @@
-import React from 'react'
+import React from 'react';
 
 const Hi = () => {
   return (
@@ -8,7 +8,7 @@ const Hi = () => {
         <span>Texto describiendome</span>
       </div>
     </>
-  )
-}
+  );
+};
 
-export default Hi
+export default Hi;

@@ -1,6 +1,9 @@
-import Main from "./pages/Main.page";
-import Footer from "./components/FooterPage"
-import Nav from "./pages/Nav.page";
+import React from 'react';
+import Main from './pages/Main.page';
+import Footer from './components/FooterPage';
+import Nav from './pages/Nav.page';
+
+
 
 const Portfolio = () => {
   return (
@@ -15,7 +18,7 @@ const Portfolio = () => {
         <Footer />
       </footer>
     </div>
-  )
-}
+  );
+};
 
-export default Portfolio
+export default Portfolio;

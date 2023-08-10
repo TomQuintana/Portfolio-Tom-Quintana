@@ -1,5 +1,6 @@
-import Image from 'next/image'
-import '../styles/levitatingIcon.css'
+import React from 'react';
+import Image from 'next/image';
+import '../styles/levitatingIcon.css';
 
 interface Information {
   img: string,
@@ -24,7 +25,7 @@ const Logo: React.FC<Information> = ({img}) => {
         </div>
       </div>
     </>
-  )
-}
+  );
+};
 
-export default Logo
+export default Logo;
