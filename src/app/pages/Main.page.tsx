@@ -1,6 +1,8 @@
 import React from 'react';
 import Logo from '../components/Logo';
-import Hi from '../components/Hi';
+import Logotipo from '../components/Logotipo';
+import AboutMe from '../components/AboutMe';
+import ProyectButton from '../components/ProyectButton';
 
 const img = '/logo.jpg';
 const text= '¡Hola, soy desarrollador Backend con sede en Argentina!';
@@ -11,7 +13,11 @@ const Main = () => {
       <Logo
         img={img}
       />
-      <Hi />
+      <Logotipo 
+        textLogotipo={text}
+      />
+      <AboutMe />
+      <ProyectButton />
     </div>
   );
 };
