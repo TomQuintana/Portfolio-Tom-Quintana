@@ -1,0 +1,57 @@
+.navGitIcon {
+  margin-top: 2px
+}
+
+.navBar {
+  top: 0;
+  position: fixed;
+  background: #F4EDE4;
+  z-index: 1000; /* Asegura que la barra de navegación aparezca por encima del contenido */
+}
+
+.navBar::after{
+  position: fixed;
+  z-index: 1000; /* Asegura que la barra de navegación aparezca por encima del contenido */
+  background: linar-gradient(to bottom, rgba(255, 255, 255, 0.2), rgba(255, 255, 255, 0.2));
+  filter: blur(10px);  /* Efecto de borroso */
+}
+
+@keyframes underlineAnimation {
+  from {
+    width: 0;
+  }
+  to {
+    width: 100%;
+  }
+}
+
+.underline-text {
+  position: relative;
+  text-decoration-line: none;
+}
+
+.underline-text:hover {
+  position: relative;
+  text-decoration-line: underline;
+  cursor: pointer;
+   transition: width 0.8s ease; /* Transición suave para la animación */ 
+}
+
+/* .underline-text::after { */
+/*   content: ""; */
+/*   position: absolute; */
+/*   bottom: 0; */
+/*   left: 0; */
+/*   width: 0; */
+/*   height: 2px; /* Ajusta el grosor del subrayado */ 
+/*   background-color: black; /* Ajusta el color del subrayado */ 
+/*   transition: width 0.8s ease; /* Transición suave para la animación */ 
+/* } */
+/**/
+/* .underline-text:hover { */
+/* cursor: pointer; */
+/* } */
+/**/
+
+
+
