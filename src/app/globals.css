@@ -5,4 +5,6 @@
 body {
   color: rgb(var(--foreground-rgb));
   background: #EFE7DB;
+  hiegth: auto;
+  min-height: 100vh;
 }
