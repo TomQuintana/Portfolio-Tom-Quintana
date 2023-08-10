@@ -1,0 +1,17 @@
+.levitating-image{
+  border-radius: 8px;
+  animation: levitate 4s ease-in-out infinite alternate;
+}
+
+@keyframes levitate {
+  0% {
+    transform: translateY(0);
+  }
+  100% {
+    transform: translateY(-20px);
+  }
+}
+
+.text {
+  width: 600px;
+}
