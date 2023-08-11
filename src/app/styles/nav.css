@@ -1,5 +1,5 @@
-.navGitIcon {
-  margin-top: 3px
+.navIcon {
+  margin-top: 3px;
 }
 
 .navBar {
@@ -34,19 +34,19 @@
   position: relative;
   text-decoration-line: underline;
   cursor: pointer;
-   transition: width 0.8s ease; /* Transición suave para la animación */ 
+  transition: width 0.8s ease; /* Transición suave para la animación */ 
 }
 
-/* .underline-text::after { */
-/*   content: ""; */
-/*   position: absolute; */
-/*   bottom: 0; */
-/*   left: 0; */
-/*   width: 0; */
-/*   height: 2px; /* Ajusta el grosor del subrayado */ 
-/*   background-color: black; /* Ajusta el color del subrayado */ 
-/*   transition: width 0.8s ease; /* Transición suave para la animación */ 
-/* } */
+ .underline-text::after { 
+   content: ""; 
+   position: absolute; 
+   bottom: 0; 
+   left: 0; 
+   width: 0; 
+   height: 2px; /* Ajusta el grosor del subrayado */ 
+   background-color: black; /* Ajusta el color del subrayado */ 
+   transition: width 0.8s ease; /* Transición suave para la animación */ 
+ } 
 /**/
 /* .underline-text:hover { */
 /* cursor: pointer; */
