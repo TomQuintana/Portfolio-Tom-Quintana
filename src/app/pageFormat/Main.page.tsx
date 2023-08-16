@@ -9,14 +9,16 @@ const text= '¡Hola, soy desarrollador Backend con sede en Argentina!';
 
 const Main = () => {
   return (
-    <div className="grid grid-cols-1 mt-16">
+    <div className="grid grid-cols-1 md:mt-10 mt-28">
       <Logo
         img={img}
       />
       <Logotipo 
         textLogotipo={text}
       />
-      <AboutMe />
+      <div className='ml-4 md:ml-0 w-11/12 md:w-full '>
+        <AboutMe />
+      </div>
       <ProyectButton />
     </div>
   );

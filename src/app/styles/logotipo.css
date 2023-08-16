@@ -1,3 +1,12 @@
 .logotipo {
   width: 550px;
 }
+
+@media screen and (max-width: 768px) {
+  .logotipo{
+    width: 90%; /* Cambia el ancho a ocupar todo el ancho disponible */
+    max-width: 550px; /* Establece un ancho máximo */
+    margin: 0 auto; /* Centra el elemento horizontalmente */
+  }
+}
+

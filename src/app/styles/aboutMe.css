@@ -2,3 +2,12 @@
 .aboutMeQuestion {
   width: 546px
 }
+
+@media screen and (max-width: 768px) {
+  .aboutMeQuestion {
+    width: 100%; /* Cambia el ancho a ocupar todo el ancho disponible */
+    max-width: 546px; /* Establece un ancho máximo */
+    margin: 0 auto; /* Centra el elemento horizontalmente */
+    padding: 0 15px; /* Agrega espaciado lateral para mejorar la legibilidad */
+  }
+}

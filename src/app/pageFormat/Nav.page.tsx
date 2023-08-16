@@ -9,14 +9,14 @@ const data = [
     path: '/proyectos'
   },
   {
-    name : '@TomQuinta',
+    name : 'Repositorio Git',
     img: 'https://img.icons8.com/small/32/github.png',
     path: 'https://github.com/TomQuintana'
   },
   {
     name : 'Curriculum',
     img: 'https://img.icons8.com/ios/50/000000/resume.png',
-    path: '/curriculum'
+    path: 'https://drive.google.com/file/d/1mnyEk4dlkoG3y9wKQHqi1a6qWupj2dw1/view'
   }
 ];
 
@@ -27,7 +27,7 @@ const author = {
 
 const Nav = () => {
   return (
-    <div className='w-9/12 lg:w-full flex justify-center navBar'>
+    <div className='w-10/12 ml-10 md:ml-0 lg:w-full flex justify-center navBar'>
       <Navigation
         author={author}
         data={data}
