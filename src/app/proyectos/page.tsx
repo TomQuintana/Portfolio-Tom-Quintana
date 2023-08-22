@@ -150,8 +150,6 @@ const proyectos = () => {
           )}
         </div>
       </div>
- 
-
       <footer className='mt-5'>
         <Footer
           author={author}
