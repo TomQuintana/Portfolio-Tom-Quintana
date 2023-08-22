@@ -14,21 +14,21 @@ const author = 'Tom Quintana';
 const data = [
   {
     name : 'Manejador de Comidas',
-    img: '/../images/iconFood.png',
+    img: '/iconFood.png',
     description: 'Lorem ipsum dolor sit amet, qui minim labore adipisicing minim sint cillum sint consectetur cupidatat.',
     path: 'https://github.com/TomQuintana/Meals-Proyect',
     bg: 'bg-pink-300'
   },
   {
     name : 'Aplicacion de Clima',
-    img: '/../images/weather.avif',
+    img: '/weather.avif',
     description: 'Lorem ipsum dolor sit amet, qui minim labore adipisicing minim sint cillum sint consectetur cupidatat.',
     path: 'https://github.com/TomQuintana/Meals-Proyect',
     bg: 'bg-sky-300'
   },
   {
     name : 'Pomodoro',
-    img: '/../images/tomato.png',
+    img: '/tomato.png',
     description: 'Lorem ipsum dolor sit amet, qui minim labore adipisicing minim sint cillum sint consectetur cupidatat.',
     path: 'https://github.com/TomQuintana/Feyndoro-Pomodoro-App',
     bg: 'bg-green-300'
