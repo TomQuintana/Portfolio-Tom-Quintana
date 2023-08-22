@@ -19,7 +19,9 @@ const Main = () => {
       <div className='ml-4 md:ml-0 w-11/12 md:w-full '>
         <AboutMe />
       </div>
-      <ProyectButton />
+      <ProyectButton
+        path={'/proyectos'}
+      />
     </div>
   );
 };
