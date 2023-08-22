@@ -87,7 +87,7 @@ const proyectos = () => {
                   </div>
                 </div>
                 <div className='bg-violet-400 text-xl flex justify-center rounded-2xl text-white mr-9 ml-9 p-1'>
-                  <Image src="/../images/gitIcon.png" alt="GitHub Icon" width={40} height={40} 
+                  <Image src="/gitIcon.png" alt="GitHub Icon" width={40} height={40} 
                     className='mr-1'
                   />
                   <Link legacyBehavior href={element.path}
