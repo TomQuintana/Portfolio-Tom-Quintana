@@ -13,23 +13,23 @@ const author = 'Tom Quintana';
 
 const data = [
   {
-    name : 'Manejador de Comidas',
+    name : 'Administrador de Comidas',
     img: '/iconFood.png',
-    description: 'Lorem ipsum dolor sit amet, qui minim labore adipisicing minim sint cillum sint consectetur cupidatat.',
+    description: 'App para poder manejar las comidas que tengo, editarlas, agregar mas o borrarlas',
     path: 'https://github.com/TomQuintana/Meals-Proyect',
     bg: 'bg-pink-300'
   },
   {
     name : 'Aplicacion de Clima',
     img: '/weather.avif',
-    description: 'Lorem ipsum dolor sit amet, qui minim labore adipisicing minim sint cillum sint consectetur cupidatat.',
+    description: 'App de terminal para poder consultar el clima de cualquier ciudad',
     path: 'https://github.com/TomQuintana/Meals-Proyect',
     bg: 'bg-sky-300'
   },
   {
     name : 'Pomodoro',
     img: '/tomato.png',
-    description: 'Lorem ipsum dolor sit amet, qui minim labore adipisicing minim sint cillum sint consectetur cupidatat.',
+    description: 'Pomodoro inspirado en Richard Feynman en donde se utilizan sus frases y una foto del mismo',
     path: 'https://github.com/TomQuintana/Feyndoro-Pomodoro-App',
     bg: 'bg-green-300'
   }
@@ -79,10 +79,10 @@ const proyectos = () => {
                     {element.name}
                   </h1>
                 </div>
-                <div className='text-justify flex justify-center w-72'>
+                <div className='text-justify flex justify-center w-72 text-sm'>
                   <div className='m-4'>
                     <p>
-                      Lorem ipsum dolor sit amet, qui minim labore adipisicing minim sint cillum sint consectetur cupidatat.
+                      {element.description}
                     </p>
                   </div>
                 </div>
