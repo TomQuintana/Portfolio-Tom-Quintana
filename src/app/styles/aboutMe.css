@@ -3,6 +3,12 @@
   width: 546px
 }
 
+.textUnderline {
+  text-decoration: underline;
+  text-decoration-thickness: 2px;
+  margin-bottom: 1px;
+}
+
 @media screen and (max-width: 768px) {
   .aboutMeQuestion {
     width: 100%; /* Cambia el ancho a ocupar todo el ancho disponible */
