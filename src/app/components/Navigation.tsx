@@ -12,7 +12,6 @@ interface Author {
   },
   data: Array<{
     name: string,
-    img: string,
     path: string
   }>
 }
