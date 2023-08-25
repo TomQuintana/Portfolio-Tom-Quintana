@@ -18,7 +18,7 @@ const page = () => {
         />
       </div>
       <div className=' w-full flex justify-center mt-5'>
-        <div className='bg-sky-400 p-5 rounded-xl logotipo flex justify-center text-white font-mono'>
+        <div className='bg-orange-400 p-5 rounded-xl logotipo flex justify-center text-white font-mono'>
           <h1 className='text-2xl'>
             Sobre Mi
           </h1>
