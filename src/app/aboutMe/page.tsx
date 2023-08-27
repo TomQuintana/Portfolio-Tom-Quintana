@@ -2,6 +2,7 @@ import React from 'react';
 import Nav from '../pageFormat/Nav.page';
 import Logo from '../components/Logo';
 import Footer from '../components/FooterPage';
+import '../styles/aboutMe.css';
 
 const img = '/logo.jpg';
 
@@ -17,8 +18,8 @@ const page = () => {
           img={img}
         />
       </div>
-      <div className=' w-full flex justify-center mt-5'>
-        <div className='bg-orange-400 p-5 rounded-xl logotipo flex justify-center text-white font-mono'>
+      <div className='w-full flex justify-center mt-5'>
+        <div className='bg-orange-400 p-5 rounded-xl aboutMeButton flex justify-center text-white font-mono'>
           <h1 className='text-2xl'>
             Sobre Mi
           </h1>

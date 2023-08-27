@@ -3,6 +3,10 @@
   width: 546px
 }
 
+.aboutMeButton {
+  width: 500px;
+}
+
 .textUnderline {
   text-decoration: underline;
   text-decoration-thickness: 2px;
