@@ -1,9 +1,12 @@
 import React from 'react';
 import './globals.css';
 import type { Metadata } from 'next';
-import { Arimo } from 'next/font/google';
+import { Arimo, Space_Mono} from 'next/font/google';
 
-const inter = Arimo({ subsets: ['latin'] });
+const inter = Space_Mono({ 
+  subsets: ['latin'],
+  weight: ['400', '700'],
+});
 
 export const metadata: Metadata = {
   title: 'Tom Quintana | Portfolio',

@@ -5,7 +5,7 @@ import '../styles/aboutMe.css';
 const AboutMe = () => {
   return (
     <> 
-      <div className='flex justify-center text-justify aboutMeQuestion font-serif'>
+      <div className='flex justify-center text-justify aboutMeQuestion '>
         <div className='grid grid-cols-1 '>
           <div className='mt-8 flex justify-start font-mono'>
             <h1 className='text-2xl textUnderline'>Sobre Mi</h1>
