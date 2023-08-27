@@ -25,7 +25,7 @@ const Navigation: React.FC<Author> = ({author, data}) => {
           {author.name}
         </Link>
       </div>
-      <div className='flex justify-center gap-4 text-xl'>
+      <div className='flex justify-center gap-4 mt-1'>
         {data.map((navBar, index: number) =>
           <div key={index} className='flex justify-center underline-text'>
             <div key={index} className=''>
