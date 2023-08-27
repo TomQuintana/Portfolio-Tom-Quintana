@@ -33,7 +33,6 @@ const data = [
     path: 'https://github.com/TomQuintana/Feyndoro-Pomodoro-App',
     bg: 'bg-green-300'
   },
-
 ];
 
 const dataFreelanceWork = [
@@ -46,9 +45,9 @@ const dataFreelanceWork = [
   },
 ];
 
-const proyectos = () => {
+const img = '/logo.jpg';
 
-  const img = '/logo.jpg';
+const proyectos = () => {
 
   return (
     <>
@@ -59,7 +58,7 @@ const proyectos = () => {
         />
       </div>
       <div className=' w-full flex justify-center mt-5'>
-        <div className='bg-sky-400 p-5 rounded-xl logotipo flex justify-center text-white font-mono'>Proyectos</div>
+        <div className='bg-sky-400 p-5 rounded-xl proyectosTitle flex justify-center text-white font-mono text-2xl'>Proyectos</div>
       </div>
       <div className='mt-12 flex justify-center'>
         <div className='grid grid-cols-1 md:grid-cols-2 gap-8 md:gap-24'>
@@ -107,10 +106,10 @@ const proyectos = () => {
         </div>
       </div>
       <div className=' w-full flex justify-center mt-10'>
-        <div className='bg-cyan-400 p-5 rounded-xl logotipo text-xl flex justify-center text-white font-mono'>Trabajo Freelance</div>
+        <div className='bg-cyan-400 p-5 rounded-xl proyectosTitle text-xl flex justify-center text-white font-mono text-2xl'>Trabajo Freelance</div>
       </div>
       <div className='mt-12 flex justify-center'>
-        <div className='grid grid-cols-1 md:grid-cols-3 gap-8 md:gap-32'>
+        <div className='grid grid-cols-1 md:grid-cols-2 gap-8 md:gap-32'>
           {dataFreelanceWork.map((element, index) =>
             <div key={index} className='flex justify-center'>
               <div className='grid grid-cols-1'>
