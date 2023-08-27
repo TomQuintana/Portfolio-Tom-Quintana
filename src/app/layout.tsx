@@ -1,7 +1,7 @@
 import React from 'react';
 import './globals.css';
 import type { Metadata } from 'next';
-import { Arimo, Space_Mono} from 'next/font/google';
+import { Space_Mono } from 'next/font/google';
 
 const inter = Space_Mono({ 
   subsets: ['latin'],
