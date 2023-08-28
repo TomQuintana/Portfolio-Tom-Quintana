@@ -2,9 +2,8 @@ import React from 'react';
 import Nav from '../pageFormat/Nav.page';
 import Logo from '../components/Logo';
 import Footer from '../components/FooterPage';
+import data from '../data/info.json';
 import '../styles/aboutMe.css';
-
-const img = '/logo.jpg';
 
 const date = new Date().getFullYear();
 const author = 'Tom Quintana';
@@ -15,7 +14,7 @@ const page = () => {
       <Nav />
       <div className='mt-32 md:mt-8'>
         <Logo
-          img={img}
+          img={data.info.img}
         />
       </div>
       <div className='w-full flex justify-center mt-5'>

@@ -3,15 +3,15 @@ import Logo from '../components/Logo';
 import Logotipo from '../components/Logotipo';
 import AboutMe from '../components/AboutMe';
 import ProyectButton from '../components/ProyectButton';
+import data from '../data/info.json'; 
 
-const img = '/logo.jpg';
 const text= '¡Hola, soy desarrollador Backend con sede en Argentina!';
 
 const Main = () => {
   return (
     <div className="grid grid-cols-1 md:mt-10 mt-28">
       <Logo
-        img={img}
+        img={data.info.img}
       />
       <Logotipo 
         textLogotipo={text}

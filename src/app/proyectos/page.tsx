@@ -5,6 +5,7 @@ import Link from 'next/link';
 import Nav from '../pageFormat/Nav.page';
 import Logo from '../components/Logo';
 import Footer from '../components/FooterPage';
+import info from '../data/info.json'
 import '../styles/proyects.css';
 import '../styles/logotipo.css';
 
@@ -45,16 +46,13 @@ const dataFreelanceWork = [
   },
 ];
 
-const img = '/logo.jpg';
-
 const proyectos = () => {
-
   return (
     <>
       <Nav />
       <div className='mt-32 md:mt-8'>
         <Logo
-          img={img}
+          img={info.info.img}
         />
       </div>
       <div className=' w-full flex justify-center mt-5'>
