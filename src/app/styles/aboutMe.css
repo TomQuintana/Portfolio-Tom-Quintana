@@ -13,6 +13,11 @@
   margin-bottom: 1px;
 }
 
+.shadowBox {
+  border-radius: 6px;
+  box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.3);
+}
+
 @media screen and (max-width: 768px) {
   .aboutMeQuestion {
     width: 100%; /* Cambia el ancho a ocupar todo el ancho disponible */

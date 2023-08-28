@@ -25,7 +25,7 @@ const page = () => {
         </div>
       </div>
       <div className=' border-black w-full mt-4 flex justify-center'>
-        <div className='bg-white w-6/12 font-mono p-4 text-center'>
+        <div className='bg-white w-6/12 font-mono p-4 text-center shadowBox'>
           <div className='text-center text-xl'>
             <h1>
               Hola! Me llamo Tomas Quintana
