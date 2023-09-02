@@ -6,6 +6,7 @@ import Nav from '../pageFormat/Nav.page';
 import Logo from '../components/Logo';
 import Footer from '../components/FooterPage';
 import info from '../data/info.json';
+import '../styles/aboutMe.css';
 import '../styles/proyects.css';
 import '../styles/logotipo.css';
 
@@ -17,21 +18,21 @@ const data = [
     name: 'Administrador de Comidas',
     img: '/iconFood.png',
     description: 'App para poder manejar las comidas que tengo, editarlas, agregar mas o borrarlas',
-    path: 'https://github.com/TomQuintana/Meals-Proyect',
+    path: '/proyectos/meals',
     bg: 'bg-pink-300'
   },
   {
     name: 'Aplicacion de Clima',
     img: '/weather.avif',
     description: 'App que se utliza desde la terminal para poder consultar el clima de cualquier ciudad de varios paises',
-    path: 'https://github.com/TomQuintana/Meals-Proyect',
+    path: '/proyectos/weather',
     bg: 'bg-sky-300'
   },
   {
     name: 'Pomodoro',
     img: '/tomato.png',
     description: 'Pomodoro inspirado en Richard Feynman en donde se utilizan sus frases y una foto del mismo',
-    path: 'https://github.com/TomQuintana/Feyndoro-Pomodoro-App',
+    path: '/proyectos/pomodoro',
     bg: 'bg-green-300'
   },
 ];
@@ -41,7 +42,7 @@ const dataFreelanceWork = [
     name: 'Sitio de Abogados',
     img: 'https://img.icons8.com/bubbles/100/scales.png',
     description: 'Lorem ipsum dolor sit amet, qui minim labore adipisicing minim sint cillum sint consectetur cupidatat.',
-    path: 'https://www.estudiojcs.com.ar/',
+    path: '/proyectos/meals',
     bg: 'bg-pink-300'
   },
 ];
@@ -55,22 +56,25 @@ const proyectos = () => {
           img={info.info.img}
         />
       </div>
-      <div className=' w-full flex justify-center mt-5'>
+      <div className=' w-full flex justify-center mt-5 fade-in'>
         <div className='bg-sky-400 p-5 rounded-xl proyectosTitle flex justify-center text-white font-mono text-2xl'>Proyectos</div>
       </div>
       <div className='mt-12 flex justify-center'>
-        <div className='grid grid-cols-1 md:grid-cols-2 gap-8 md:gap-24'>
+        <div className='grid grid-cols-1 md:grid-cols-2 gap-8 md:gap-10 slide-up-element'>
           {data.map((element, index) =>
             <div key={index} className='flex justify-center'>
               <div className='grid grid-cols-1'>
-                <div className={`flex justify-center ${element.bg} rounded-2xl `}>
-                  <Image
-                    src={element.img}
-                    width={120}
-                    height={300}
-                    alt="Picture of the logo"
-                    className='m-2'
-                  />
+                <div className={`flex justify-center ${element.bg} rounded-2xl hover:cursor-pointer `}>
+                  <Link href={element.path}
+                  >
+                    <Image
+                      src={element.img}
+                      width={120}
+                      height={300}
+                      alt="Picture of the logo"
+                      className='m-2'
+                    />
+                  </Link>
                 </div>
                 <div className='text-justify flex justify-center font-mono text-lg'>
                   <h1>
@@ -83,19 +87,6 @@ const proyectos = () => {
                       {element.description}
                     </p>
                   </div>
-                </div>
-                <div className='bg-violet-400 text-xl flex justify-center rounded-2xl text-white mr-9 ml-9 p-1'>
-                  <Image src="/gitIcon.png" alt="GitHub Icon" width={40} height={40}
-                    className='mr-1'
-                  />
-                  <Link legacyBehavior href={element.path}
-                  >
-                    <a target='_blank'
-                      className='mt-2'
-                    >
-                      Repositorio
-                    </a>
-                  </Link>
                 </div>
               </div>
             </div>
