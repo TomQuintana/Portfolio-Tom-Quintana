@@ -42,7 +42,7 @@ const dataFreelanceWork = [
     name: 'Sitio de Abogados',
     img: 'https://img.icons8.com/bubbles/100/scales.png',
     description: 'Lorem ipsum dolor sit amet, qui minim labore adipisicing minim sint cillum sint consectetur cupidatat.',
-    path: '/proyectos/meals',
+    path: '/proyectos/abogadosWork',
     bg: 'bg-pink-300'
   },
 ];
@@ -102,14 +102,16 @@ const proyectos = () => {
           {dataFreelanceWork.map((element, index) =>
             <div key={index} className='flex justify-center'>
               <div className='grid grid-cols-1'>
-                <div className={`flex justify-center ${element.bg} rounded-2xl `}>
-                  <Image
-                    src={element.img}
-                    width={120}
-                    height={300}
-                    alt="Picture of the logo"
-                    className='m-2'
-                  />
+                <div className={`flex justify-center ${element.bg} rounded-2xl hover: cursor-pointer`}>
+                  <Link legacyBehavior href={element.path} >
+                    <Image
+                      src={element.img}
+                      width={120}
+                      height={300}
+                      alt="Picture of the logo"
+                      className='m-2'
+                    />
+                  </Link>
                 </div>
                 <div className='text-justify flex justify-center font-mono text-lg'>
                   <h1>
@@ -122,17 +124,6 @@ const proyectos = () => {
                       Lorem ipsum dolor sit amet, qui minim labore adipisicing minim sint cillum sint consectetur cupidatat.
                     </p>
                   </div>
-                </div>
-                <div className='bg-green-400 text-xl flex justify-center rounded-2xl text-white mr-9 ml-9 p-1'>
-                  <Image src="https://img.icons8.com/plasticine/100/web.png" alt="GitHub Icon" width={35} height={35}
-                    className='mr-1'
-                  />
-                  <Link legacyBehavior href={element.path}
-                  >
-                    <a target='_blank' className='mt-1'>
-                      Sitio
-                    </a>
-                  </Link>
                 </div>
               </div>
             </div>
