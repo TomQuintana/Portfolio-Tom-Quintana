@@ -17,14 +17,14 @@ const page = () => {
           img={data.info.img}
         />
       </div>
-      <div className='w-full flex justify-center mt-5'>
+      <div className='w-full flex justify-center mt-5 fade-in'>
         <div className='bg-orange-400 p-5 rounded-xl aboutMeTitle flex justify-center text-white font-mono'>
           <h1 className='text-2xl'>
             Sobre Mi
           </h1>
         </div>
       </div>
-      <div className=' border-black w-full mt-4 flex justify-center'>
+      <div className=' border-black w-full mt-4 flex justify-center slide-up-element'>
         <div className='bg-white w-6/12 font-mono p-4 text-center shadowBox'>
           <div className='text-center text-xl'>
             <h1>
