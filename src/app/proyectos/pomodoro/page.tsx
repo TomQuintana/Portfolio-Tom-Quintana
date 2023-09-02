@@ -1,5 +1,5 @@
 import React from 'react';
-import ProyectBody from '@/app/testComponent/proyectBody';
+import ProyectBody from '../../../components/proyectBody';
 
 const data = {
   name: 'Pomodoro',

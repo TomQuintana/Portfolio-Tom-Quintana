@@ -1,5 +1,5 @@
 import React from 'react';
-import '../styles/logotipo.css';
+import '../app/styles/logotipo.css';
 
 interface Logotipo {
   textLogotipo: string

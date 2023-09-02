@@ -1,7 +1,7 @@
 import React from 'react';
 import Main from './Main.page';
 import Nav from './Nav.page';
-import Footer from '../components/FooterPage';
+import Footer from '../../components/FooterPage';
 import '../styles/mainContent.css';
 
 const date = new Date().getFullYear();

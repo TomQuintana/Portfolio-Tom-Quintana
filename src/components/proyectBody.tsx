@@ -1,10 +1,11 @@
 import React from 'react';
-import Nav from '../pageFormat/Nav.page';
+import Nav from '../app/pageFormat/Nav.page';
 import Logo from '../components/Logo';
 import Footer from '../components/FooterPage';
-import data from '../data/info.json';
+import data from '../app/data/info.json';
 import Image from 'next/image';
 import Link from 'next/link';
+
 const date = new Date().getFullYear();
 const author = 'Tom Quintana';
 

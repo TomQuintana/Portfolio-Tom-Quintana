@@ -1,6 +1,6 @@
 import React from 'react';
 import Image from 'next/image';
-import '../styles/levitatingIcon.css';
+import '../app/styles/levitatingIcon.css';
 
 interface Information {
   img: string,

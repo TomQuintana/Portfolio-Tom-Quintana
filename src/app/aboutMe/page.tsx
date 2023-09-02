@@ -1,7 +1,7 @@
 import React from 'react';
 import Nav from '../pageFormat/Nav.page';
-import Logo from '../components/Logo';
-import Footer from '../components/FooterPage';
+import Logo from '../../components/Logo';
+import Footer from '../../components/FooterPage';
 import data from '../data/info.json';
 import '../styles/aboutMe.css';
 

@@ -1,8 +1,8 @@
 import React from 'react';
-import Logo from '../components/Logo';
-import Logotipo from '../components/Logotipo';
-import AboutMe from '../components/AboutMe';
-import ProyectButton from '../components/ProyectButton';
+import Logo from '../../components/Logo';
+import Logotipo from '../../components/Logotipo';
+import AboutMe from '../../components/AboutMe';
+import ProyectButton from '../../components/ProyectButton';
 import data from '../data/info.json'; 
 import '../styles/aboutMe.css';
 

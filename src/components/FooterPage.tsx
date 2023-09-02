@@ -1,5 +1,5 @@
 import React from 'react';
-import '../styles/footer.css';
+import '../app/styles/footer.css';
 
 interface Data {
   author: string,

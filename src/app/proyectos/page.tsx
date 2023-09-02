@@ -3,8 +3,8 @@ import React from 'react';
 import Image from 'next/image';
 import Link from 'next/link';
 import Nav from '../pageFormat/Nav.page';
-import Logo from '../components/Logo';
-import Footer from '../components/FooterPage';
+import Logo from '../../components/Logo';
+import Footer from '../../components/FooterPage';
 import info from '../data/info.json';
 import '../styles/aboutMe.css';
 import '../styles/proyects.css';
@@ -95,7 +95,7 @@ const proyectos = () => {
         </div>
       </div>
       <div className=' w-full flex justify-center mt-10'>
-        <div className='bg-cyan-400 p-5 rounded-xl proyectosTitle text-xl flex justify-center text-white font-mono text-2xl'>Trabajo Freelance</div>
+        <div className='bg-cyan-400 p-5 rounded-xl proyectosTitle flex justify-center text-white font-mono text-2xl'>Trabajo Freelance</div>
       </div>
       <div className='mt-12 flex justify-center'>
         <div className='grid grid-cols-1 md:grid-cols-2 gap-8 md:gap-32'>

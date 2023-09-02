@@ -2,8 +2,8 @@
 
 import React from 'react';
 import Link from 'next/link';
-import '../styles/nav.css';
-import '../styles/writeMachine.css';
+import '../app/styles/nav.css';
+import '../app/styles/writeMachine.css';
 
 interface Author {
   author: {
