@@ -41,7 +41,7 @@ const dataFreelanceWork = [
   {
     name: 'Sitio de Abogados',
     img: 'https://img.icons8.com/bubbles/100/scales.png',
-    description: 'Lorem ipsum dolor sit amet, qui minim labore adipisicing minim sint cillum sint consectetur cupidatat.',
+    description: 'Sitio para Buffet de Abogados',
     path: '/proyectos/abogadosWork',
     bg: 'bg-pink-300'
   },
@@ -59,7 +59,7 @@ const proyectos = () => {
       <div className=' w-full flex justify-center mt-5 fade-in'>
         <div className='bg-sky-400 p-5 rounded-xl proyectosTitle flex justify-center text-white font-mono text-2xl'>Proyectos</div>
       </div>
-      <div className='mt-12 flex justify-center'>
+      <div className='mt-12 flex justify-center fade-in'>
         <div className='grid grid-cols-1 md:grid-cols-2 gap-8 md:gap-10 slide-up-element'>
           {data.map((element, index) =>
             <div key={index} className='flex justify-center'>
@@ -94,11 +94,11 @@ const proyectos = () => {
           )}
         </div>
       </div>
-      <div className=' w-full flex justify-center mt-10'>
+      <div className=' w-full flex justify-center mt-10 fade-in'>
         <div className='bg-cyan-400 p-5 rounded-xl proyectosTitle flex justify-center text-white font-mono text-2xl'>Trabajo Freelance</div>
       </div>
-      <div className='mt-12 flex justify-center'>
-        <div className='grid grid-cols-1 md:grid-cols-2 gap-8 md:gap-32'>
+      <div className='mt-12 flex justify-center fade-in'>
+        <div className='grid grid-cols-1 md:grid-cols-2 gap-8 md:gap-10'>
           {dataFreelanceWork.map((element, index) =>
             <div key={index} className='flex justify-center'>
               <div className='grid grid-cols-1'>
@@ -121,7 +121,7 @@ const proyectos = () => {
                 <div className='text-justify flex justify-center w-72'>
                   <div className='m-4'>
                     <p>
-                      Lorem ipsum dolor sit amet, qui minim labore adipisicing minim sint cillum sint consectetur cupidatat.
+                      {element.description}
                     </p>
                   </div>
                 </div>
