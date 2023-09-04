@@ -40,7 +40,7 @@ const page = () => {
           <br/>
           <div>
             <p className=''>
-              Trabaje en Gojiraf live shopping en donde me desempeñe como desarrollador Full Stack. Junto al equipo de integraciones y core generamos integraciones con distintos ecommerce y manteniamos el core de la aplicacion.
+              Trabaje en Gojiraf live shopping en donde me desempeñe como desarrollador Full Stack. Junto al equipo de integraciones y core generamos integraciones con distintos ecommerce, manteniamos el core de la aplicacion y participe en el desarrollo de microservicios.
             </p>
           </div>
           <br/>
