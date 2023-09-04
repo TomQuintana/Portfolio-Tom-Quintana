@@ -72,6 +72,7 @@ const proyectos = () => {
                       width={120}
                       height={300}
                       alt="Picture of the logo"
+                      className='mt-2'
                     />
                   </Link>
                 </div>
