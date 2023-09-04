@@ -24,7 +24,7 @@ const data = [
   {
     name: 'Aplicacion de Clima',
     img: '/weather.avif',
-    description: 'App que se utliza desde la terminal para poder consultar el clima de cualquier ciudad de varios paises',
+    description: 'App que se utliza desde la terminal para poder consultar el clima',
     path: '/proyectos/weather',
     bg: 'bg-sky-300'
   },
@@ -64,7 +64,7 @@ const proyectos = () => {
           {data.map((element, index) =>
             <div key={index} className='flex justify-center'>
               <div className='grid grid-cols-1'>
-                <div className={`flex justify-center ${element.bg} rounded-2xl hover:cursor-pointer `}>
+                <div className={`flex justify-center ${element.bg} rounded-2xl hover:cursor-pointer w-full h-36`}>
                   <Link href={element.path}
                   >
                     <Image
@@ -72,11 +72,10 @@ const proyectos = () => {
                       width={120}
                       height={300}
                       alt="Picture of the logo"
-                      className='m-2'
                     />
                   </Link>
                 </div>
-                <div className='text-justify flex justify-center font-mono text-lg'>
+                <div className='text-justify flex justify-center font-mono text-lg mt-2'>
                   <h1>
                     {element.name}
                   </h1>

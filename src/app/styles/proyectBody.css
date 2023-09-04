@@ -1,0 +1,29 @@
+
+.bodyAnimation {
+  opacity: 0;
+  animation: appear 2s forwards;
+}
+
+@keyframes appear {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+.imgAnimation {
+  opacity: 0;
+  animation: appear 2.5s forwards;
+}
+
+@keyframes appear {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+

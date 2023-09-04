@@ -5,6 +5,7 @@ import Footer from '../components/FooterPage';
 import data from '../app/data/info.json';
 import Image from 'next/image';
 import Link from 'next/link';
+import '../../src/app/styles/proyectBody.css';
 
 const date = new Date().getFullYear();
 const author = 'Tom Quintana';
@@ -27,7 +28,7 @@ const ProyectBody: React.FC<ProyectData> = ({proyectoName, stack, description, r
           img={data.info.img}
         />
       </div>
-      <div className='flex justify-center mt-4'>
+      <div className='flex justify-center mt-4 bodyAnimation'>
         <div className='w-7/12 bg-gray-100 p-2 rounded-xl'>
           <div className='text-start'>
             <div>
@@ -61,7 +62,7 @@ const ProyectBody: React.FC<ProyectData> = ({proyectoName, stack, description, r
           </div>
         </div>
       </div>
-      <div className='md:flex mt-2 justify-center md:mt-6 gap-8'>
+      <div className='md:flex mt-2 justify-center md:mt-6 gap-8 imgAnimation'>
         <Image src={imageOne}
           alt="GitHub Icon" width={450} height={450} className='rounded-xl'
         />
