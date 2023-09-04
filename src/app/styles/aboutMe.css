@@ -58,3 +58,7 @@
 .slide-up-element {
   animation: slide-up 1.2s ease-in-out;
 }
+
+.logotipoFont {
+  font-size: 20px;
+}
