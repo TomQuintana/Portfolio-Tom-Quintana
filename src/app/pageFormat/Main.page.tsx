@@ -19,7 +19,7 @@ const Main = () => {
           textLogotipo={text}
         />
       </div>
-      <div className='ml-32 md:ml-0 w-11/12 md:w-full flex justify-center slide-up-element'>
+      <div className='sm:ml-32 md:ml-0 w-11/12 md:w-full flex justify-center slide-up-element'>
         <AboutMe />
       </div>
       <div className='slide-up-element'>
