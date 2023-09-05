@@ -4,7 +4,7 @@ import ProyectBody from '../../../components/proyectBody';
 const data = {
   name: 'Pomodoro',
   stack: 'Python, Tkinter',
-  description: 'Pomodoro inspirado en Richard Feynman',
+  description: 'Pomodoro inspirado en Richard Feynman el cual llame Feyndoro',
   repo: 'https://github.com/TomQuintana/Feyndoro-Pomodoro-App',
   imageOne: 'https://res.cloudinary.com/dmg3cl9dc/image/upload/v1692564429/Screenshot_2023-08-20_at_14.05.03_w9ywbe.png',
   imageSecond: 'https://res.cloudinary.com/dmg3cl9dc/image/upload/v1692564637/Screenshot_2023-08-20_at_17.50.18_nrum4w.png'

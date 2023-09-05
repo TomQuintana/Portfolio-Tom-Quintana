@@ -30,7 +30,7 @@ const data = [
   },
   {
     name: 'Pomodoro',
-    img: '/tomato.png',
+    img: '/pomodoro.png',
     description: 'Pomodoro inspirado en Richard Feynman en donde se utilizan sus frases y una foto del mismo',
     path: '/proyectos/pomodoro',
     bg: 'bg-green-300'
@@ -72,7 +72,7 @@ const proyectos = () => {
                       width={120}
                       height={300}
                       alt="Picture of the logo"
-                      className='mt-2'
+                      className='m-3'
                     />
                   </Link>
                 </div>
@@ -90,14 +90,13 @@ const proyectos = () => {
                 </div>
               </div>
             </div>
-
           )}
         </div>
       </div>
-      <div className=' w-full flex justify-center mt-10 fade-in'>
+      <div className=' w-full flex justify-center mt-10 fade-in-2'>
         <div className='bg-cyan-400 p-5 rounded-xl proyectosTitle flex justify-center text-white font-mono text-2xl'>Trabajo Freelance</div>
       </div>
-      <div className='mt-12 flex justify-center fade-in'>
+      <div className='mt-12 flex justify-center fade-in-2'>
         <div className='grid grid-cols-1 md:grid-cols-2 gap-8 md:gap-10'>
           {dataFreelanceWork.map((element, index) =>
             <div key={index} className='flex justify-center'>
