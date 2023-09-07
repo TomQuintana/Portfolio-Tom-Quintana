@@ -4,7 +4,7 @@ import Logo from '../../components/Logo';
 import Footer from '../../components/FooterPage';
 import data from '../data/info.json';
 import '../styles/aboutMe.css';
-import '../styles/logotipo.css'
+import '../styles/logotipo.css';
 
 const date = new Date().getFullYear();
 const author = 'Tom Quintana';
