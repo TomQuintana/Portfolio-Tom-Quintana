@@ -57,7 +57,7 @@ const proyectos = () => {
         />
       </div>
       <div className=' w-full flex justify-center mt-5 fade-in'>
-        <div className='bg-sky-400 p-5 rounded-xl proyectosTitle flex justify-center text-white font-mono text-2xl'>Proyectos</div>
+        <div className='bg-sky-400 logotipo p-5 rounded-xl proyectosTitle flex justify-center text-white font-mono text-2xl'>Proyectos</div>
       </div>
       <div className='mt-12 flex justify-center fade-in'>
         <div className='grid grid-cols-1 md:grid-cols-2 gap-8 md:gap-10 slide-up-element'>
@@ -94,7 +94,7 @@ const proyectos = () => {
         </div>
       </div>
       <div className=' w-full flex justify-center mt-10 fade-in-2'>
-        <div className='bg-cyan-400 p-5 rounded-xl proyectosTitle flex justify-center text-white font-mono text-2xl'>Trabajo Freelance</div>
+        <div className='bg-cyan-400 logotipo p-5 rounded-xl proyectosTitle flex justify-center text-white font-mono text-2xl'>Trabajo Freelance</div>
       </div>
       <div className='mt-12 flex justify-center fade-in-2'>
         <div className='grid grid-cols-1 md:grid-cols-2 gap-8 md:gap-10'>

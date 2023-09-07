@@ -4,6 +4,7 @@ import Logo from '../../components/Logo';
 import Footer from '../../components/FooterPage';
 import data from '../data/info.json';
 import '../styles/aboutMe.css';
+import '../styles/logotipo.css'
 
 const date = new Date().getFullYear();
 const author = 'Tom Quintana';
@@ -18,14 +19,14 @@ const page = () => {
         />
       </div>
       <div className='w-full flex justify-center mt-5 fade-in'>
-        <div className='bg-orange-400 p-5 rounded-xl aboutMeTitle flex justify-center text-white font-mono'>
+        <div className='bg-orange-400 logotipo p-5 rounded-xl aboutMeTitle flex justify-center text-white font-mono'>
           <h1 className='text-2xl'>
             Sobre Mi
           </h1>
         </div>
       </div>
       <div className=' border-black w-full mt-4 flex justify-center slide-up-element'>
-        <div className='bg-white w-6/12 font-mono p-4 text-center shadowBox'>
+        <div className='bg-white w-10/12 md:w-6/12 font-mono p-4 text-center shadowBox'>
           <div className='text-center text-xl'>
             <h1>
               Hola! Me llamo Tomas Quintana
@@ -40,7 +41,7 @@ const page = () => {
           <br/>
           <div>
             <p className=''>
-              Trabaje en Gojiraf live shopping en donde me desempeñe como desarrollador Full Stack. Junto al equipo de integraciones y core generamos integraciones con distintos ecommerce, manteniamos el core de la aplicacion y participe en el desarrollo de microservicios.
+              Trabaje en Gojiraf live shopping en donde me desempeñe como desarrollador Full Stack. Junto al equipo de integraciones y core colabore en el desarrollo de integraciones con distintos ecommerce, participe en el desarrollo de microservicios y realice tareas de implementacion y mantenimiento del core de la aplicacion 
             </p>
           </div>
           <br/>

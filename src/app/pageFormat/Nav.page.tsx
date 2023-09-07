@@ -28,7 +28,7 @@ const author = {
 
 const Nav = () => {
   return (
-    <div className='w-10/12 ml-10 md:ml-0 lg:w-full flex justify-center navBar'>
+    <div className='w-full ml-1 md:ml-0 lg:w-full flex justify-center navBar'>
       <Navigation
         author={author}
         data={data}
