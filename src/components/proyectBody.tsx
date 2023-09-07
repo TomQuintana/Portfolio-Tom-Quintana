@@ -29,7 +29,7 @@ const ProyectBody: React.FC<ProyectData> = ({proyectoName, stack, description, r
         />
       </div>
       <div className='flex justify-center mt-4 bodyAnimation'>
-        <div className='w-7/12 bg-gray-100 p-2 rounded-xl'>
+        <div className='w-11/12 md:w-7/12 bg-gray-100 p-2 rounded-xl'>
           <div className='text-start'>
             <div>
               <Link href="/proyectos" className='text-blue-600 underline'>
