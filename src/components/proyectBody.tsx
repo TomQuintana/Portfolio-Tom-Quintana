@@ -64,10 +64,10 @@ const ProyectBody: React.FC<ProyectData> = ({proyectoName, stack, description, r
       </div>
       <div className='md:flex mt-2 justify-center md:mt-6 gap-8 imgAnimation'>
         <Image src={imageOne}
-          alt="GitHub Icon" width={450} height={450} className='rounded-xl'
+          alt="GitHub Icon" width={450} height={450} className='m-1 md:m-0 rounded-xl'
         />
         <Image src={imageSecond}
-          alt="GitHub Icon" width={450} height={450} className='rounded-xl mt-2 md:mt-0' 
+          alt="GitHub Icon" width={450} height={450} className='rounded-xl m-1 md:m-0 ' 
         />
       </div>
       <footer>
