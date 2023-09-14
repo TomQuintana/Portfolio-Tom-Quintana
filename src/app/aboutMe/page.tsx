@@ -29,7 +29,7 @@ const page = () => {
         <div className='bg-white w-10/12 md:w-6/12 font-mono p-4 text-center shadowBox'>
           <div className='text-center text-xl'>
             <h1>
-              Hola! Me llamo Tomas Quintana
+              Hola! Me llamo Tomas Quintana 
             </h1>
           </div>
           <br/>
@@ -49,12 +49,6 @@ const page = () => {
             <p>
               Me gusta trabajar en equipo, tener nuevos retos y poder poner en práctica lo que aprendo
             </p>
-          </div>
-          <br/>
-          <div>
-            <h1>
-              Actualmente me encuentro trabajando como desarrollador Freelance mientras continuo en busqueda de mi proximo desafio laboral
-            </h1>
           </div>
           <br/>
           <div>
