@@ -62,7 +62,7 @@ const proyectos = () => {
       <div className='mt-12 flex justify-center fade-in'>
         <div className='grid grid-cols-1 md:grid-cols-2 gap-8 md:gap-10 slide-up-element'>
           {data.map((element, index) =>
-            <div key={index} className='flex justify-center'>
+            <div key={index} className='flex justify-center hover: cursor-pointer'>
               <div className='grid grid-cols-1'>
                 <div className={`flex justify-center ${element.bg} rounded-2xl hover:cursor-pointer w-full h-36`}>
                   <Link href={element.path}
@@ -76,18 +76,20 @@ const proyectos = () => {
                     />
                   </Link>
                 </div>
-                <div className='text-justify flex justify-center font-mono text-lg mt-2'>
-                  <h1>
-                    {element.name}
-                  </h1>
-                </div>
-                <div className='text-justify flex justify-center w-72 text-sm'>
-                  <div className='m-4'>
-                    <p>
-                      {element.description}
-                    </p>
+                <Link href={element.path}>
+                  <div className='text-justify flex justify-center font-mono text-lg mt-2'>
+                    <h1>
+                      {element.name}
+                    </h1>
                   </div>
-                </div>
+                  <div className='text-justify flex justify-center w-72 text-sm'>
+                    <div className='m-4'>
+                      <p>
+                        {element.description}
+                      </p>
+                    </div>
+                  </div>
+                </Link>
               </div>
             </div>
           )}
