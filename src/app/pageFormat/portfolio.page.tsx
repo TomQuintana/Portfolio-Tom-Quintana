@@ -4,7 +4,7 @@ import Nav from './Nav.page';
 import Footer from '../../components/FooterPage';
 import '../styles/mainContent.css';
 
-const date = new Date().getFullYear();
+//const date = new Date().getFullYear();
 const author = 'Tom Quintana';
 
 const Portfolio = () => {
@@ -22,7 +22,7 @@ const Portfolio = () => {
         </main>
         <footer>
           <Footer 
-            year={date}
+            year={2024}
             author={author}
           />
         </footer>
