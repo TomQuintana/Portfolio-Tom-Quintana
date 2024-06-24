@@ -13,7 +13,7 @@ const data = [
   },
   {
     name : 'Curriculum',
-    path: 'https://drive.google.com/file/d/1Qy6BBxB_seiuwe8rsXkhgTJao2l78HFM/view?usp=sharing'
+    path: 'https://drive.google.com/file/d/1dZRMPaiFc0b-OvXdb900ytas979ufZAV/view?usp=sharing'
   },
   {
     name : 'Sobre Mi',
