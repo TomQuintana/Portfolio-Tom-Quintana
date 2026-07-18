@@ -17,7 +17,7 @@ const Logo: React.FC<Information> = ({img}) => {
                 src={img}
                 width={300}
                 height={72}
-                className='mt-20 h-72 rounded-s-3xl '
+                className='mt-20 h-72 rounded-s-3xl dark:bg-white dark:rounded-3xl dark:p-3'
                 alt="Picture of the logo"
               />
             </div>

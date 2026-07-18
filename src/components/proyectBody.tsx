@@ -15,8 +15,8 @@ interface ProyectData {
   stack: string,
   description: string,
   repo: string,
-  imageOne: string,
-  imageSecond: string
+  imageOne?: string,
+  imageSecond?: string
 }
 
 const ProyectBody: React.FC<ProyectData> = ({proyectoName, stack, description, repo, imageOne, imageSecond}) => {
@@ -29,7 +29,7 @@ const ProyectBody: React.FC<ProyectData> = ({proyectoName, stack, description, r
         />
       </div>
       <div className='flex justify-center mt-4 bodyAnimation'>
-        <div className='w-11/12 md:w-7/12 bg-gray-100 p-2 rounded-xl'>
+        <div className='w-11/12 md:w-7/12 bg-gray-100 dark:bg-[#23242d] p-2 rounded-xl'>
           <div className='text-start'>
             <div>
               <Link href="/proyectos" className='text-blue-600 underline'>
@@ -62,14 +62,18 @@ const ProyectBody: React.FC<ProyectData> = ({proyectoName, stack, description, r
           </div>
         </div>
       </div>
-      <div className='md:flex mt-2 justify-center md:mt-6 gap-8 imgAnimation'>
-        <Image src={imageOne}
-          alt="GitHub Icon" width={450} height={450} className='m-1 md:m-0 rounded-xl'
-        />
-        <Image src={imageSecond}
-          alt="GitHub Icon" width={450} height={450} className='rounded-xl m-1 md:m-0 ' 
-        />
-      </div>
+      {imageOne && (
+        <div className='md:flex mt-2 justify-center md:mt-6 gap-8 imgAnimation'>
+          <Image src={imageOne}
+            alt="GitHub Icon" width={450} height={450} className='m-1 md:m-0 rounded-xl'
+          />
+          {imageSecond && (
+            <Image src={imageSecond}
+              alt="GitHub Icon" width={450} height={450} className='rounded-xl m-1 md:m-0 '
+            />
+          )}
+        </div>
+      )}
       <footer>
         <Footer 
           year={date}

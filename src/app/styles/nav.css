@@ -19,8 +19,12 @@
 .navBar {
   top: 0;
   position: fixed;
-  background: #F4EDE4;
+  background: var(--nav-bg);
   z-index: 1000; /* Asegura que la barra de navegación aparezca por encima del contenido */
+}
+
+.dark .underline-text::after {
+  background-color: var(--text);
 }
 
 @media (max-width: 768px) {

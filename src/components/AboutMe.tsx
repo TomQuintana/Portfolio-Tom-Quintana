@@ -11,7 +11,7 @@ const AboutMe = () => {
             <h1 className='text-xl textUnderline logotipoFont'>Sobre Mi</h1>
           </div>
           <div className='flex justify-center p-1'>
-            <p>Soy un apasionado del desarrollo de software, por lo que estoy en constante aprendizaje sobre nuevas tecnologías y sobre cómo generar código más limpio. Me gusta generar proyectos para solucionar problemas que surgen en la cotidianidad y poder aprender cada vez más. Cuando no me encuentro codeando suelo ver documentales, leer o salir a caminar.
+            <p>Soy AI Engineer. Construyo software — específicamente sistemas de IA: agentes, pipelines RAG, arquitecturas multiagente. Oriento mi carrera a resolver problemas reales con software limpio y escalable, en constante aprendizaje de nuevas tecnologías. Cuando no me encuentro codeando suelo ver documentales, leer o salir a caminar.
             </p>
           </div>
           <div className='grid grid-cols-1 md:flex justify-center mb-4'>

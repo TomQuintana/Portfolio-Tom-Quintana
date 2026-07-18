@@ -9,6 +9,30 @@ import '../styles/logotipo.css';
 const date = new Date().getFullYear();
 const author = 'Tom Quintana';
 
+const jobs = [
+  {
+    company: 'Taligent · Data & AI Solutions',
+    role: 'AI Engineer — Cliente: YPF',
+    period: 'may. 2026 - actualidad',
+    current: true,
+    description: 'Diseño de arquitectura e implementación de sistemas multiagente con LangGraph y FastAPI para YPF: grafos de agentes, routing y estado persistente en Cosmos DB. RAG pipelines con recuperación semántica sobre documentación técnica interna (relevancia, latencia y context window management). Integración de LLMs vía Azure AI Foundry (OpenAI / Anthropic) con control de costos por token en entornos enterprise.'
+  },
+  {
+    company: 'Quadminds',
+    role: 'Ssr. Backend & IA Developer',
+    period: 'feb. 2025 - may. 2026',
+    current: false,
+    description: 'Creación de agentes de IA con LangChain/Python y desarrollo de APIs escalables con FastAPI y NestJS/TypeScript.'
+  },
+  {
+    company: 'Gojiraf · Live Shopping',
+    role: 'Full Stack Developer',
+    period: '',
+    current: false,
+    description: 'Junto al equipo de integraciones y core: desarrollo de integraciones con distintos ecommerce, participación en microservicios y tareas de implementación y mantenimiento del core de la aplicación.'
+  }
+];
+
 const page = () => {
   return (
     <>
@@ -26,7 +50,7 @@ const page = () => {
         </div>
       </div>
       <div className=' border-black w-full mt-4 flex justify-center slide-up-element'>
-        <div className='bg-white w-10/12 md:w-6/12 font-mono p-4 text-center shadowBox'>
+        <div className='bg-white dark:bg-[#23242d] w-10/12 md:w-6/12 font-mono p-4 text-center shadowBox'>
           <div className='text-center text-xl'>
             <h1>
               Hola! Me llamo Tomas Quintana 
@@ -35,14 +59,29 @@ const page = () => {
           <br/>
           <div >
             <h2>
-              Tengo 25 años y soy de Buenos Aires📍
+              Tengo 27 años y soy de Buenos Aires📍
             </h2>
           </div>
           <br/>
           <div>
-            <p className=''>
-              Comencé mi carrera como desarrollador Full Stack en Gojiraf Live Shopping, donde formé parte del equipo de integraciones y core. Durante mi tiempo en esta posición, contribuí al desarrollo de integraciones con diversas plataformas de comercio electrónico. Además, colaboré en la creación de microservicios y llevé a cabo tareas de implementación y mantenimiento en el núcleo de la aplicación. Actualmente, continúo mi trayectoria como desarrollador backend en Gojiraf, aplicando mi experiencia y habilidades en esta emocionante etapa profesional.           
-            </p>
+            <h1 className='text-xl mb-4'>Mi trayectoria</h1>
+            <div className='grid grid-cols-1 gap-4 text-left'>
+              {jobs.map((job, index) =>
+                <div key={index} className='border-l-4 border-orange-400 pl-4 py-1'>
+                  <div className='flex flex-wrap items-center gap-2'>
+                    <h2 className='text-lg font-bold'>{job.role}</h2>
+                    {job.current &&
+                      <span className='bg-orange-400 text-white text-xs rounded-full px-2 py-0.5'>actual</span>
+                    }
+                  </div>
+                  <div className='text-sm'>{job.company}</div>
+                  {job.period &&
+                    <div className='text-xs text-gray-500'>{job.period}</div>
+                  }
+                  <p className='text-sm mt-2'>{job.description}</p>
+                </div>
+              )}
+            </div>
           </div>
           <br/>
           <div>
@@ -51,80 +90,6 @@ const page = () => {
             </p>
           </div>
           <br/>
-          <div>
-            <h1>
-              Cuento con experiencia en las siguientes tecnologías
-            </h1>
-          </div>
-          <div className='flex md:flex justify-center '>
-            <div className='w-full '>
-              <div className='flex justify-around '>
-                <img
-                  src="https://github.com/TomQuintana/TomQuintana/assets/69986961/8c5b5012-52ee-4824-8292-5d45caa9cccf"
-                  alt="javascript"
-                  width="100"
-                  height="100"
-                />
-                <img
-                  src="https://raw.githubusercontent.com/devicons/devicon/master/icons/nodejs/nodejs-original-wordmark.svg"
-                  alt="nodejs"
-                  width="100"
-                  height="100"
-                />
-                <img
-                  src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mongodb/mongodb-original-wordmark.svg"
-                  alt="mongodb"
-                  width="100"
-                  height="100"
-                />
-
-                <img
-                  src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original-wordmark.svg"
-                  alt="react"
-                  width="100"
-                  height="100"
-                />
-                <img
-                  src="https://www.vectorlogo.zone/logos/tailwindcss/tailwindcss-icon.svg"
-                  alt="tailwind"
-                  width="100"
-                  height="100"
-                /> 
-              </div>
-              <div className='flex justify-around '>
-                <img
-                  src="https://github.com/TomQuintana/TomQuintana/assets/69986961/6497df6f-2499-4ad6-ab3f-f1ae229d8a44"
-                  alt="typescript"
-                  width="100"
-                  height="100"
-                />
-                <img
-                  src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mysql/mysql-original-wordmark.svg"
-                  alt="mysql"
-                  width="100"
-                  height="100"
-                />
-                <img
-                  src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original-wordmark.svg"
-                  alt="mysql"
-                  width="100"
-                  height="100"
-                />
-                <img
-                  src="https://raw.githubusercontent.com/devicons/devicon/master/icons/fastapi/fastapi-original-wordmark.svg"
-                  alt="mysql"
-                  width="100"
-                  height="100"
-                />
-                <img
-                  src="https://raw.githubusercontent.com/devicons/devicon/master/icons/amazonwebservices/amazonwebservices-line-wordmark.svg"
-                  alt="typescript"
-                  width="100"
-                  height="100"
-                />
-              </div>
-            </div>
-          </div>
         </div>
       </div>
       <footer className='mt-5'>

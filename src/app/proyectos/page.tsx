@@ -15,25 +15,11 @@ const author = 'Tom Quintana';
 
 const data = [
   {
-    name: 'Administrador de Comidas',
-    img: '/iconFood.png',
-    description: 'App para poder manejar las comidas que tengo, editarlas, agregar mas o borrarlas',
-    path: '/proyectos/meals',
-    bg: 'bg-pink-300'
-  },
-  {
-    name: 'Aplicacion de Clima',
-    img: '/weather.avif',
-    description: 'App que se utliza desde la terminal para poder consultar el clima',
-    path: '/proyectos/weather',
-    bg: 'bg-sky-300'
-  },
-  {
-    name: 'Pomodoro',
-    img: '/pomodoro.png',
-    description: 'Pomodoro inspirado en Richard Feynman en donde se utilizan sus frases y una foto del mismo',
-    path: '/proyectos/pomodoro',
-    bg: 'bg-green-300'
+    name: 'Financial RAG',
+    img: 'https://img.icons8.com/bubbles/100/financial-growth-analysis.png',
+    description: 'App para buscar información en reportes 10-K de empresas (ej. AAPL) usando un pipeline RAG',
+    path: '/proyectos/financial-rag',
+    bg: 'bg-orange-300'
   },
 ];
 

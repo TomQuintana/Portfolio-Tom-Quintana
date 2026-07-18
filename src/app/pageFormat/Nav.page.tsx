@@ -4,19 +4,15 @@ import '../styles/nav.css';
 
 const data = [
   {
-    name : 'Proyectos',
+    name: 'Proyectos',
     path: '/proyectos'
   },
   {
-    name : 'Repositorio Git',
+    name: 'Repositorio Git',
     path: 'https://github.com/TomQuintana'
   },
   {
-    name : 'Curriculum',
-    path: 'https://drive.google.com/file/d/1dZRMPaiFc0b-OvXdb900ytas979ufZAV/view?usp=sharing'
-  },
-  {
-    name : 'Sobre Mi',
+    name: 'Sobre Mi',
     path: '/aboutMe'
   },
 ];

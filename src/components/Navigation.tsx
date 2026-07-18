@@ -1,6 +1,6 @@
 'use client';
 
-import React from 'react';
+import React, { useEffect, useState } from 'react';
 import Link from 'next/link';
 import '../app/styles/nav.css';
 import '../app/styles/writeMachine.css';
@@ -17,6 +17,18 @@ interface Author {
 }
 
 const Navigation: React.FC<Author> = ({author, data}) => {
+  const [dark, setDark] = useState(false);
+
+  useEffect(() => {
+    setDark(document.documentElement.classList.contains('dark'));
+  }, []);
+
+  const toggleTheme = () => {
+    const next = !dark;
+    setDark(next);
+    document.documentElement.classList.toggle('dark', next);
+    localStorage.theme = next ? 'dark' : 'light';
+  };
 
   return (
     <div className=' grid grid-cols-1 md:flex justify-center gap-5 p-5'>
@@ -35,6 +47,13 @@ const Navigation: React.FC<Author> = ({author, data}) => {
             </div>
           </div>
         )}
+        <button
+          onClick={toggleTheme}
+          aria-label="Cambiar tema"
+          className='flex justify-center underline-text'
+        >
+          {dark ? '☀️' : '🌙'}
+        </button>
       </div>
     </div>
   );
