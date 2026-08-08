@@ -17,7 +17,7 @@ const data = [
   {
     name: 'Financial RAG',
     img: 'https://img.icons8.com/bubbles/100/financial-growth-analysis.png',
-    description: 'App para buscar información en reportes 10-K de empresas (ej. AAPL) usando un pipeline RAG',
+    description: 'Api para buscar información en reportes 10-K de empresas (ej. AAPL) usando un pipeline RAG',
     path: '/proyectos/financial-rag',
     bg: 'bg-orange-300'
   },

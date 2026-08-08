@@ -4,7 +4,7 @@ import ProyectBody from '../../../components/proyectBody';
 const dataFinancialRag = {
   name: 'Financial RAG',
   stack: 'Python, LangGraph, LangChain',
-  description: 'Aplicación para buscar y consultar información dentro de reportes financieros 10-K de empresas como AAPL. Implementa un pipeline RAG con LangGraph y Python para recuperación semántica sobre los documentos y responder preguntas en lenguaje natural.',
+  description: 'API que permite hacerle preguntas en lenguaje natural a reportes financieros 10-K en vez de leerlos manualmente. Usa un pipeline RAG (LangGraph + LangChain) que recupera los fragmentos relevantes del documento y genera respuestas basadas solo en esa información.',
   repo: 'https://github.com/TomQuintana/Financial-RAG'
 };
 
